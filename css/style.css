@@ -1,7 +1,5 @@
 /* Custom Styles for Devianto Store */
 
-/* Custom Styles for Devianto Store */
-
 :root {
   --maroon: #ff6123; /* Merah Marun */
   --primary-maroon: #ff6123; /* Menggunakan maroon sebagai primary color */
@@ -10,13 +8,18 @@
   --text-color: #333; /* Warna teks umum */
 }
 
+/* --- Base Font Size & Typography --- */
+html {
+    font-size: 16px; /* Default base font size: 1rem = 16px */
+}
+
 body {
-  /* Menggunakan font sistem default (sans-serif) */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol";
-  padding-top: 56px; /* Offset for fixed navbar */
-  color: var(--text-color);
+    padding-top: 56px; /* Offset for fixed navbar */
+    color: var(--text-color);
+    line-height: 1.6; /* Tambahkan line-height untuk keterbacaan */
 }
 
 h1,
@@ -25,24 +28,35 @@ h3,
 h4,
 h5,
 h6 {
-  /* Menggunakan font sistem default (sans-serif) */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol";
-  font-weight: 700;
+    font-weight: 700;
+    margin-bottom: 0.8rem; /* Konsistenkan margin bottom */
 }
+
+h1 { font-size: 2.8rem; } /* Sekitar 44.8px */
+h2 { font-size: 2.2rem; } /* Sekitar 35.2px */
+h3 { font-size: 1.8rem; } /* Sekitar 28.8px */
+h4 { font-size: 1.5rem; } /* Sekitar 24px */
+h5 { font-size: 1.25rem; } /* Sekitar 20px */
+h6 { font-size: 1rem; } /* Sekitar 16px */
+
 
 p,
 a,
 li,
 button {
-  /* Menggunakan font sistem default (sans-serif) */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol";
+    font-size: 1rem; /* Ukuran font standar */
 }
 
-/* ... Kode CSS lainnya tetap sama ... */
+.lead {
+    font-size: 1.15rem; /* Sedikit lebih besar dari p biasa */
+}
+
 
 /* Navbar Customization */
 .navbar {
@@ -53,13 +67,14 @@ button {
 .navbar-brand {
   color: var(--maroon) !important;
   font-weight: bold;
-  font-size: 1.8rem; /* Lebih besar */
+  font-size: 1.6rem; /* Sedikit dikecilkan dari 1.8rem */
 }
 
 .nav-link {
   color: #fff !important;
   font-weight: 500;
   transition: all 0.2s ease-in-out;
+  font-size: 0.95rem; /* Dikecilkan */
 }
 
 .nav-link.active,
@@ -69,28 +84,25 @@ button {
 
 /* Hero Section */
 .hero-section {
-  /* Ganti gambar ini dengan gambar fashion wanita berkualitas tinggi! */
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("img/hero-fashion.jpg") no-repeat center center/cover;
-  min-height: 80vh; /* Lebih tinggi */
+  min-height: 80vh;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: inset 0 -10px 15px rgba(0, 0, 0, 0.3); /* Sedikit bayangan di bawah */
+  box-shadow: inset 0 -10px 15px rgba(0, 0, 0, 0.3);
 }
 
-/* Hapus .hero-section::before yang lama jika ada, sudah dihandle di background: linear-gradient */
-
 .hero-section h1 {
-  font-size: 4.5rem; /* Lebih besar */
+  font-size: 3.8rem; /* Dikecilkan dari 4.5rem */
   font-weight: bold;
   color: #fff;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
 }
 
 .hero-section .lead {
-  font-size: 1.8rem; /* Lebih besar */
+  font-size: 1.6rem; /* Dikecilkan dari 1.8rem */
   color: #fff;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
   max-width: 700px;
@@ -98,27 +110,32 @@ button {
 }
 
 /* Buttons */
+.btn {
+    font-size: 0.9rem; /* Ukuran font tombol umum */
+    padding: 0.6rem 1.2rem; /* Padding tombol umum */
+}
+
 .btn-primary {
   background-color: var(--maroon);
   border-color: var(--maroon);
-  padding: 12px 30px; /* Lebih besar */
-  font-size: 1.1rem;
+  padding: 0.75rem 1.8rem; /* Dikecilkan dari 12px 30px */
+  font-size: 1rem; /* Dikecilkan dari 1.1rem */
   font-weight: 600;
-  border-radius: 50px; /* Lebih rounded */
+  border-radius: 50px;
   transition: all 0.3s ease;
 }
 
 .btn-primary:hover {
   background-color: #a00000;
   border-color: #a00000;
-  transform: translateY(-2px); /* Efek hover ringan */
+  transform: translateY(-2px);
   box-shadow: 0 4px 10px rgba(128, 0, 0, 0.4);
 }
 
 .btn-outline-primary {
   color: var(--maroon);
   border-color: var(--maroon);
-  padding: 8px 20px;
+  padding: 0.5rem 1rem; /* Disesuaikan */
   font-weight: 600;
   border-radius: 5px;
   transition: all 0.3s ease;
@@ -133,8 +150,8 @@ button {
 .btn-outline-dark {
   color: var(--dark-gray);
   border-color: var(--dark-gray);
-  padding: 12px 30px;
-  font-size: 1.1rem;
+  padding: 0.75rem 1.8rem; /* Disesuaikan dari 12px 30px */
+  font-size: 1rem; /* Disesuaikan dari 1.1rem */
   font-weight: 600;
   border-radius: 50px;
   transition: all 0.3s ease;
@@ -169,34 +186,34 @@ button {
 }
 /* Card Enhancements (untuk product-card) */
 .product-card {
-  border: none; /* Hapus border bawaan */
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08); /* Bayangan lebih halus */
+  border: none;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  border-radius: 10px; /* Sudut lebih melengkung */
+  border-radius: 10px;
   overflow: hidden;
 }
 
 .product-card:hover {
-  transform: translateY(-8px); /* Efek lift yang lebih jelas */
-  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15); /* Bayangan lebih besar */
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
 }
 
 .product-card .card-img-top {
-  height: 300px; /* Tinggi gambar sedikit lebih besar */
-  width: 300px; /* Tinggi gambar sedikit lebih besar */
-
+  height: 280px; /* Dikecilkan dari 300px */
+  width: 100%; /* Pastikan lebar 100% dari kontainer */
   object-fit: cover;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .product-card .card-title {
-  font-size: 1.25rem;
+  font-size: 1.15rem; /* Dikecilkan dari 1.25rem */
   font-weight: 600;
   color: var(--dark-gray);
+  margin-bottom: 0.5rem; /* Tambahkan margin bawah */
 }
 
 .product-card .card-text.fw-bold {
-  font-size: 1.3rem; /* Harga lebih besar */
+  font-size: 1.2rem; /* Dikecilkan dari 1.3rem (Harga produk) */
 }
 
 /* Kategori Produk Utama */
@@ -206,7 +223,7 @@ button {
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
-  height: 100%; /* Pastikan tingginya sama */
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -222,9 +239,8 @@ button {
 
 .category-card img {
   max-width: 100%;
-  height: 450px; /* Tinggi gambar kategori */
-  width: 100%; /* Tinggi gambar kategori */
-
+  height: 300px; /* Dikecilkan dari 450px */
+  width: 100%;
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 15px;
@@ -262,7 +278,7 @@ button {
 }
 
 .service-box h5 {
-  font-size: 1.3rem;
+  font-size: 1.2rem; /* Dikecilkan dari 1.3rem */
   color: var(--dark-gray);
 }
 
@@ -306,45 +322,24 @@ button {
 
 /* Section Padding */
 section {
-  padding: 80px 0; /* Padding lebih besar */
+  padding: 60px 0; /* Dikecilkan dari 80px */
 }
 
 /* Footer */
 footer {
   background-color: var(--dark-gray) !important;
-  padding: 30px 0;
-  font-size: 0.9rem;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .hero-section h1 {
-    font-size: 3rem;
-  }
-  .hero-section .lead {
-    font-size: 1.2rem;
-  }
-  .btn-lg {
-    padding: 10px 25px;
-    font-size: 1rem;
-  }
-  .cta-input {
-    margin-bottom: 15px;
-    max-width: 100%;
-  }
-  .cta-button {
-    width: 100%;
-  }
+  padding: 25px 0; /* Dikecilkan dari 30px */
+  font-size: 0.85rem; /* Dikecilkan dari 0.9rem */
 }
 
 /* Product Detail Page Specific Styles */
 #product-detail-section {
-  padding-top: 80px; /* Adjust for fixed navbar */
+  padding-top: 80px;
 }
 
 #main-product-image {
   width: 100%;
-  height: 500px; /* Fixed height for main image */
+  height: 400px; /* Dikecilkan dari 500px */
   object-fit: cover;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -353,7 +348,7 @@ footer {
   cursor: pointer;
   border: 2px solid transparent;
   transition: all 0.2s ease;
-  height: 100px; /* Fixed height for thumbnails */
+  height: 80px; /* Dikecilkan dari 100px */
   object-fit: cover;
 }
 
@@ -367,7 +362,7 @@ footer {
 .form-control {
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  padding: 10px 15px;
+  padding: 8px 12px; /* Dikecilkan */
 }
 
 .form-select:focus,
@@ -377,17 +372,13 @@ footer {
 }
 
 .d-grid button {
-  font-size: 1.2rem;
-  padding: 12px 30px;
+  font-size: 1.1rem; /* Dikecilkan dari 1.2rem */
+  padding: 10px 25px; /* Dikecilkan dari 12px 30px */
 }
-
-/* Custom Styles for Devianto Store */
-
-/* ... (Kode CSS yang sudah ada sebelumnya) ... */
 
 /* Shopping Cart Specific Styles */
 #shopping-cart-section {
-  padding-top: 80px; /* Adjust for fixed navbar */
+  padding-top: 80px;
 }
 
 .cart-item {
@@ -402,46 +393,40 @@ footer {
 }
 
 .cart-item-img {
-  width: 100px; /* Lebar gambar produk di keranjang */
-  height: 100px; /* Tinggi gambar produk di keranjang */
+  width: 80px; /* Dikecilkan dari 100px */
+  height: 80px; /* Dikecilkan dari 100px */
   object-fit: cover;
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .cart-item h5 {
-  font-size: 1.1rem;
+  font-size: 1rem; /* Dikecilkan dari 1.1rem */
   font-weight: 600;
   color: var(--dark-gray);
 }
 
 .cart-item .text-muted {
-  font-size: 0.85rem;
+  font-size: 0.8rem; /* Dikecilkan dari 0.85rem */
 }
 
 .cart-item .form-control-sm {
-  padding: 0.375rem 0.25rem;
-  height: calc(1.5em + 0.75rem + 2px); /* Menyesuaikan tinggi input */
+  padding: 0.3rem 0.2rem; /* Disesuaikan */
+  height: calc(1.5em + 0.6rem + 2px); /* Menyesuaikan tinggi input */
 }
 
 /* Make sticky-top work well */
 @media (min-width: 992px) {
-  /* On large screens and up */
   .sticky-top {
     position: sticky;
-    top: 80px; /* Adjust if your navbar height changes */
-    align-self: flex-start; /* Ensure it sticks from the top of its flex container */
+    top: 80px;
+    align-self: flex-start;
   }
 }
 
-/* ... (Kode CSS lainnya) ... */
-/* Custom Styles for Devianto Store */
-
-/* ... (Kode CSS yang sudah ada sebelumnya) ... */
-
 /* Checkout Specific Styles */
 #checkout-section {
-  padding-top: 80px; /* Adjust for fixed navbar */
+  padding-top: 80px;
 }
 
 #checkout-form .form-control,
@@ -458,23 +443,12 @@ footer {
 
 /* Make sticky-top work well in checkout */
 @media (min-width: 992px) {
-  /* On large screens and up */
   .sticky-top {
     position: sticky;
     top: 80px;
     align-self: flex-start;
   }
 }
-/* ... (Kode CSS lainnya) ... */
-
-/* Custom Styles for Devianto Store */
-
-/* ... (Kode CSS yang sudah ada sebelumnya) ... */
-
-/* Toast Notifications */
-/* Custom Styles for Devianto Store */
-
-/* ... (Kode CSS yang sudah ada sebelumnya) ... */
 
 /* Toast Notifications */
 .toast-container {
@@ -482,23 +456,276 @@ footer {
 }
 
 .toast {
-  width: 500px; /* Lebar Toast diatur di sini, Anda bisa mengubahnya */
-  max-width: 100%; /* Memastikan tidak melebihi lebar layar pada perangkat kecil */
+  width: 400px; /* Dikecilkan dari 500px */
+  max-width: 95%; /* Lebih fleksibel untuk mobile */
 }
 
 .toast-body {
   display: flex;
   align-items: center;
   color: inherit;
-  font-size: 0.9rem; /* Opsional: Sesuaikan ukuran font jika pesan sangat panjang */
+  font-size: 0.85rem; /* Dikecilkan dari 0.9rem */
 }
 
 .toast-body i {
-  font-size: 1.2rem;
+  font-size: 1.1rem; /* Dikecilkan dari 1.2rem */
 }
 
 .toast .btn-close-white {
   filter: invert(1) grayscale(100%) brightness(200%);
 }
 
-/* ... (Kode CSS lainnya) ... */
+/* --- Media Queries for Responsive Design --- */
+
+/* Extra small devices (phones, max 575.98px) */
+@media (max-width: 575.98px) {
+    html {
+        font-size: 14px; /* Basis font lebih kecil untuk layar sangat kecil (1rem = 14px) */
+    }
+
+    body {
+        padding-top: 50px; /* Sesuaikan padding untuk navbar yang mungkin lebih kecil */
+    }
+
+    /* Navbar */
+    .navbar-brand {
+        font-size: 1.4rem; /* Brand logo lebih kecil di mobile */
+    }
+    .nav-link {
+        font-size: 0.9rem; /* Link navigasi lebih kecil */
+    }
+    .navbar-toggler {
+        padding: 0.25rem 0.5rem; /* Padding tombol toggler lebih kecil */
+        font-size: 0.8rem;
+    }
+
+
+    /* Hero Section */
+    .hero-section {
+        min-height: 65vh; /* Tinggi hero section lebih rendah di mobile */
+    }
+    .hero-section h1 {
+        font-size: 2.5rem; /* Heading hero lebih kecil */
+    }
+    .hero-section .lead {
+        font-size: 1rem; /* Lead text hero lebih kecil */
+    }
+    .btn-primary.btn-lg, .btn-outline-dark.btn-lg {
+        font-size: 0.9rem; /* Tombol besar di hero lebih kecil */
+        padding: 0.6rem 1.2rem;
+    }
+
+    /* General Headings */
+    h1 { font-size: 2.2rem; }
+    h2 { font-size: 1.8rem; }
+    h3 { font-size: 1.5rem; }
+    h4 { font-size: 1.2rem; }
+    h5 { font-size: 1rem; }
+    h6 { font-size: 0.9rem; }
+    p { font-size: 0.95rem; }
+    .lead { font-size: 1rem; }
+
+
+    /* Section Padding */
+    section {
+        padding: 40px 0; /* Padding section lebih kecil di mobile */
+    }
+
+    /* Product Cards */
+    .product-card .card-img-top {
+        height: 200px; /* Tinggi gambar produk card lebih kecil */
+    }
+    .product-card .card-title {
+        font-size: 1rem;
+        margin-bottom: 0.25rem;
+    }
+    .product-card .card-text.fw-bold {
+        font-size: 1rem; /* Harga produk di card lebih kecil */
+    }
+    .product-card .btn {
+        font-size: 0.8rem;
+        padding: 0.4rem 0.8rem;
+    }
+
+    /* Category Cards */
+    .category-card img {
+        height: 200px; /* Tinggi gambar kategori lebih kecil */
+    }
+    .category-card h4 a {
+        font-size: 1.2rem;
+    }
+
+    /* Service Boxes */
+    .service-box h5 {
+        font-size: 1.1rem;
+    }
+
+    /* CTA Section */
+    .cta-input {
+        margin-bottom: 1rem; /* Spasi antar input dan tombol */
+    }
+    .cta-input, .cta-button {
+        width: 100%; /* Lebar penuh */
+        max-width: none;
+    }
+
+    /* Product Detail Page */
+    #main-product-image {
+        height: 300px; /* Tinggi gambar utama detail produk lebih kecil */
+    }
+    .product-thumbnail-gallery img {
+        height: 60px; /* Tinggi thumbnail detail produk lebih kecil */
+    }
+    .d-grid button {
+        font-size: 1rem; /* Tombol beli sekarang lebih kecil */
+        padding: 0.6rem 1.2rem;
+    }
+
+    /* Cart Page Specific */
+    .cart-item {
+        flex-direction: column; /* Ubah tata letak item keranjang jadi vertikal di mobile */
+        text-align: center;
+        align-items: center !important; /* Pastikan konten di tengah */
+        padding: 10px; /* Padding item keranjang lebih kecil */
+    }
+    .cart-item-img {
+        width: 70px; /* Ukuran gambar item keranjang lebih kecil */
+        height: 70px;
+        margin-right: 0 !important; /* Hapus margin kanan default */
+        margin-bottom: 0.5rem; /* Tambahkan margin bawah */
+    }
+    .cart-item .flex-grow-1 {
+        text-align: center;
+        margin-right: 0 !important;
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    .cart-item .d-flex.align-items-center { /* Untuk quantity controls */
+        justify-content: center !important;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .cart-item .remove-from-cart-btn {
+        margin-top: 0.5rem; /* Tombol hapus di bawah */
+        font-size: 0.75rem;
+        padding: 0.3rem 0.6rem;
+    }
+    #cart-summary .card-body {
+        padding: 1rem;
+    }
+    #cart-summary h4 {
+        font-size: 1.2rem;
+    }
+
+    /* Checkout Page Specific */
+    #checkout-section .card-body {
+        padding: 1rem;
+    }
+    #checkout-form .form-group, #checkout-form .mb-3 {
+        margin-bottom: 0.8rem !important; /* Spasi form lebih rapat */
+    }
+    .checkout-summary h4 {
+        font-size: 1.2rem;
+    }
+    .list-group-item {
+        font-size: 0.9rem;
+    }
+
+    /* Contact Info */
+    #contact-info p.lead {
+        font-size: 0.9rem;
+    }
+
+    /* Footer */
+    footer {
+        padding: 20px 0;
+        font-size: 0.8rem;
+    }
+
+    /* Toast */
+    .toast {
+        width: 100%; /* Toast lebar penuh di mobile */
+        margin-bottom: 10px !important; /* Dorong toast ke atas sedikit dari bawah */
+    }
+    .toast-container {
+        padding: 10px !important; /* Padding container toast */
+    }
+    .toast-body {
+        font-size: 0.8rem;
+    }
+    .toast-body i {
+        font-size: 1rem;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    html {
+        font-size: 15px; /* Sedikit lebih besar dari xs tapi masih mobile */
+    }
+    /* Sesuaikan lebih lanjut jika perlu untuk breakpoint ini */
+    .hero-section h1 {
+        font-size: 3rem;
+    }
+    .hero-section .lead {
+        font-size: 1.3rem;
+    }
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+    .nav-link {
+        font-size: 0.9rem;
+    }
+    .product-card .card-img-top {
+        height: 220px;
+    }
+    .category-card img {
+        height: 250px;
+    }
+    #main-product-image {
+        height: 350px;
+    }
+    .toast {
+        width: 350px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    html {
+        font-size: 15.5px; /* Ukuran font untuk tablet */
+    }
+    /* Anda bisa menyesuaikan jumlah kolom produk di sini jika ingin */
+    /* Misalnya, untuk 3 kolom di tablet: */
+    /* .product-item, .col-md-4 {
+        flex: 0 0 auto;
+        width: 33.333333%;
+    } */
+    .hero-section h1 {
+        font-size: 3.5rem;
+    }
+    .hero-section .lead {
+        font-size: 1.5rem;
+    }
+    .product-card .card-img-top {
+        height: 250px;
+    }
+    .category-card img {
+        height: 280px;
+    }
+    #main-product-image {
+        height: 380px;
+    }
+    .toast {
+        width: 400px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+/* Gaya default di bagian atas CSS sudah mencakup ini,
+   tapi jika ada penyesuaian khusus untuk desktop besar, bisa ditambahkan di sini */
+@media (min-width: 992px) {
+    html {
+        font-size: 16px; /* Ukuran font default untuk desktop */
+    }
+}

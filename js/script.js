@@ -277,6 +277,59 @@ $(document).ready(function() {
         });
     };
 
+        // --- NEW: Function to load and display featured products dynamically for index.html ---
+    const loadFeaturedProductsToPage = () => {
+        const featuredProductListContainer = $('#featured-product-list-container');
+        if (featuredProductListContainer.length === 0) return; // Only run if on index.html
+
+        featuredProductListContainer.empty(); // Clear existing content
+
+        // Ensure recommendedProductsData is available globally
+        if (typeof recommendedProductsData === 'undefined') {
+            console.error("recommendedProductsData is not loaded. Make sure product-recommendation.js is included.");
+            return;
+        }
+
+        const productsArray = Object.keys(recommendedProductsData).map(key => ({
+            id: key,
+            ...recommendedProductsData[key]
+        }));
+
+        productsArray.forEach(product => {
+            const productHtml = `
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4 product-item ${product.category}">
+                    <div class="card product-card h-100 shadow-sm">
+                        <img src="${product.images[0] || 'img/placeholder.jpg'}" class="card-img-top" alt="${product.name}">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title text-maroon">${product.name}</h5>
+                            <p class="card-text text-muted mb-auto">
+                                ${product.description.substring(0, 100)}...
+                            </p>
+                            <p class="card-price fw-bold text-dark fs-5">${formatRupiah(product.price)}</p>
+                            <div class="mt-3 d-flex justify-content-center">
+                                <a href="pages/product-detail.html?id=${product.id}" class="btn btn-outline-primary btn-sm rounded-pill me-2">
+                                    Lihat Detail
+                                </a>
+                                <button
+                                    class="btn btn-maroon btn-sm rounded-pill add-to-cart-btn"
+                                    data-product-id="${product.id}"
+                                    data-product-name="${product.name}"
+                                    data-product-price="${product.price}"
+                                >
+                                    <i class="fas fa-shopping-cart me-1"></i> Tambah
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            featuredProductListContainer.append(productHtml);
+        });
+    };
+    // Initial load for featured products on index.html
+    if ($('#featured-products').length) {
+        loadFeaturedProductsToPage();
+    }
     // --- Logic for filtering products (modified for query parameter) ---
     // Function to apply category filter and update UI
     const applyCategoryFilter = (category) => {
