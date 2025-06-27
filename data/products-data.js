@@ -9,7 +9,7 @@ const productsData = {
             '../img/product/2-kemeja-wanita-salur-lengan-panjang/gambar.png',
             '../img/product/2-kemeja-wanita-salur-lengan-panjang/gambar-1.png',
             '../img/product/2-kemeja-wanita-salur-lengan-panjang/gambar-2.png',
-            '../img/product/2-kemeja-wanur-lengan-panjang/gambar-3.png'
+            '../img/product/2-kemeja-wanita-salur-lengan-panjang/gambar-3.png'
         ],
         sizes: ['S', 'M', 'L', 'XL'],
         colors: ['Putih', 'Krem', 'Biru Muda'],
