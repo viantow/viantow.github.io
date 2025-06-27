@@ -1,0 +1,83 @@
+// products-data.js
+const productsData = { 
+    '2': {
+        name: 'Blouse Wanita Katun Motif Salur Premium',
+        price: 175000,
+        description: `🧥 Kemeja Wanita Salur Lengan Panjang – Elegan & Nyaman Sepanjang Hari! Tampil rapi & kece dengan kemeja salur berbahan Cotton Premium yang adem, halus, dan sedikit silky. Cocok dipakai kerja, meeting, atau santai nongkrong bareng bestie! ✨ Fitur: Material: Cotton Salur Premium – adem, breathable, lembut. Desain salur vertikal + kerah reguler elegan. Cuttingan pas di pundak, siluet rapi & feminim. Model lengan panjang cocok untuk formal & casual. 📏 Ukuran (All Size): Lingkar Dada: 110 cm, Panjang Badan: 74 cm, Panjang Lengan: 60 cm (Toleransi ±1–2 cm). 💬 Testimoni real: \"Jatuh di badan, adem banget, nyaman seharian!\" 📦 Ready stock – dikirim cepat 1x24 jam. Terima reseller & dropship. Foto real pict — kualitas dijamin!`,
+        images: [
+            '../img/product/2-kemeja-wanita-salur-lengan-panjang/display.png',
+            '../img/product/2-kemeja-wanita-salur-lengan-panjang/gambar.png',
+            '../img/product/2-kemeja-wanita-salur-lengan-panjang/gambar-1.png',
+            '../img/product/2-kemeja-wanita-salur-lengan-panjang/gambar-2.png',
+            '../img/product/2-kemeja-wanur-lengan-panjang/gambar-3.png'
+        ],
+        sizes: ['S', 'M', 'L', 'XL'],
+        colors: ['Putih', 'Krem', 'Biru Muda'],
+        category: 'atasan' // Kategori baru
+    },
+    '102': {
+        name: 'Dress Midi Floral',
+        price: 320000,
+        description: 'Dress midi dengan motif floral yang cerah, memberikan kesan feminin dan segar. Ideal untuk acara santai maupun semi-formal.',
+        images: [
+            '../http://googleusercontent.com/image_collection/image_retrieval/12738882231300534042',
+            '../img/products/dress1_thumb1.jpg',
+            '../img/products/dress1_thumb2.jpg'
+        ],
+        sizes: ['S', 'M', 'L'],
+        colors: ['Kuning', 'Pink', 'Hijau'],
+        category: 'dress' // Kategori baru
+    },
+    '103': {
+        name: 'Celana Palazzo Linen',
+        price: 210000,
+        description: 'Celana palazzo dari bahan linen berkualitas tinggi, sangat nyaman dan stylish untuk gaya kasual maupun formal.',
+        images: [
+            '../http://googleusercontent.com/image_collection/image_retrieval/17041652458924895743',
+            '../img/products/palazzo1_thumb1.jpg',
+            '../img/products/palazzo1_thumb2.jpg'
+        ],
+        sizes: ['S', 'M', 'L', 'XL'],
+        colors: ['Hitam', 'Beige', 'Abu-abu'],
+        category: 'bawahan' // Kategori baru
+    },
+    '104': {
+        name: 'Kemeja Denim Trendy',
+        price: 280000,
+        description: 'Kemeja denim modern dengan potongan oversized yang nyaman dan gaya. Cocok untuk tampilan kasual yang chic.',
+        images: [
+            '../http://googleusercontent.com/image_collection/image_retrieval/15295758763496965927',
+            '../img/products/kemeja1_thumb1.jpg',
+            '../img/products/kemeja1_thumb2.jpg'
+        ],
+        sizes: ['S', 'M', 'L'],
+        colors: ['Biru Muda', 'Biru Tua'],
+        category: 'atasan' // Kategori baru
+    },
+    '105': { 
+        name: 'Gaun Pesta Mewah',
+        price: 550000,
+        description: 'Gaun pesta elegan dengan potongan modern dan detail payet berkilau. Sempurna untuk tampil menawan di setiap kesempatan istimewa.',
+        images: [
+            '../http://googleusercontent.com/image_collection/image_retrieval/2646306585890884538',
+            '../img/products/gaun1_thumb1.jpg',
+            '../img/products/gaun1_thumb2.jpg'
+        ],
+        sizes: ['S', 'M', 'L'],
+        colors: ['Gold', 'Silver', 'Hitam'],
+        category: 'dress' // Kategori baru
+    },
+    '106': {
+        name: 'Rok Plisket Modis',
+        price: 195000,
+        description: 'Rok plisket dengan desain modern dan bahan jatuh yang elegan. Cocok untuk gaya formal maupun kasual.',
+        images: [
+            '../http://googleusercontent.com/image_collection/image_retrieval/7127110230990417941',
+            '../img/products/rok1_thumb1.jpg',
+            '../img/products/rok1_thumb2.jpg'
+        ],
+        sizes: ['All Size'],
+        colors: ['Coklat', 'Hijau Army', 'Marun'],
+        category: 'bawahan' // Kategori baru
+    }
+};

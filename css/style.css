@@ -1,0 +1,504 @@
+/* Custom Styles for Devianto Store */
+
+/* Custom Styles for Devianto Store */
+
+:root {
+  --maroon: #ff6123; /* Merah Marun */
+  --primary-maroon: #ff6123; /* Menggunakan maroon sebagai primary color */
+  --light-gray: #f8f9fa;
+  --dark-gray: #001d6e;
+  --text-color: #333; /* Warna teks umum */
+}
+
+body {
+  /* Menggunakan font sistem default (sans-serif) */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  padding-top: 56px; /* Offset for fixed navbar */
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* Menggunakan font sistem default (sans-serif) */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-weight: 700;
+}
+
+p,
+a,
+li,
+button {
+  /* Menggunakan font sistem default (sans-serif) */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}
+
+/* ... Kode CSS lainnya tetap sama ... */
+
+/* Navbar Customization */
+.navbar {
+  background-color: var(--dark-gray) !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+  color: var(--maroon) !important;
+  font-weight: bold;
+  font-size: 1.8rem; /* Lebih besar */
+}
+
+.nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: var(--maroon) !important;
+}
+
+/* Hero Section */
+.hero-section {
+  /* Ganti gambar ini dengan gambar fashion wanita berkualitas tinggi! */
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("img/hero-fashion.jpg") no-repeat center center/cover;
+  min-height: 80vh; /* Lebih tinggi */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 -10px 15px rgba(0, 0, 0, 0.3); /* Sedikit bayangan di bawah */
+}
+
+/* Hapus .hero-section::before yang lama jika ada, sudah dihandle di background: linear-gradient */
+
+.hero-section h1 {
+  font-size: 4.5rem; /* Lebih besar */
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.hero-section .lead {
+  font-size: 1.8rem; /* Lebih besar */
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  max-width: 700px;
+  margin: 0 auto 20px auto;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--maroon);
+  border-color: var(--maroon);
+  padding: 12px 30px; /* Lebih besar */
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50px; /* Lebih rounded */
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #a00000;
+  border-color: #a00000;
+  transform: translateY(-2px); /* Efek hover ringan */
+  box-shadow: 0 4px 10px rgba(128, 0, 0, 0.4);
+}
+
+.btn-outline-primary {
+  color: var(--maroon);
+  border-color: var(--maroon);
+  padding: 8px 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--maroon);
+  color: #fff;
+  box-shadow: 0 2px 5px rgba(128, 0, 0, 0.2);
+}
+
+.btn-outline-dark {
+  color: var(--dark-gray);
+  border-color: var(--dark-gray);
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-dark:hover {
+  background-color: var(--dark-gray);
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Text Colors */
+.text-maroon {
+  color: var(--maroon) !important;
+}
+
+.header-bg {
+  background-image: url("../img/product/mitzy/header.png");
+  background-size: cover;
+  animation: fadeIn 1s ease-in forwards;
+}
+
+/* Tambahkan keyframes animasi fadeIn */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Card Enhancements (untuk product-card) */
+.product-card {
+  border: none; /* Hapus border bawaan */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08); /* Bayangan lebih halus */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border-radius: 10px; /* Sudut lebih melengkung */
+  overflow: hidden;
+}
+
+.product-card:hover {
+  transform: translateY(-8px); /* Efek lift yang lebih jelas */
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15); /* Bayangan lebih besar */
+}
+
+.product-card .card-img-top {
+  height: 300px; /* Tinggi gambar sedikit lebih besar */
+  width: 300px; /* Tinggi gambar sedikit lebih besar */
+
+  object-fit: cover;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.product-card .card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--dark-gray);
+}
+
+.product-card .card-text.fw-bold {
+  font-size: 1.3rem; /* Harga lebih besar */
+}
+
+/* Kategori Produk Utama */
+.category-card {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  height: 100%; /* Pastikan tingginya sama */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  animation: fadeIn 1.5s ease-in forwards;
+  overflow: hidden;
+  position: relative;
+}
+
+.category-card:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.category-card img {
+  max-width: 100%;
+  height: 450px; /* Tinggi gambar kategori */
+  width: 100%; /* Tinggi gambar kategori */
+
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.category-card h4 a {
+  color: var(--dark-gray);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+.category-card h4 a:hover {
+  color: var(--maroon);
+}
+
+/* Service Box (Keunggulan Toko) */
+.service-box {
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.service-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-box i {
+  color: var(--maroon);
+  margin-bottom: 15px;
+}
+
+.service-box h5 {
+  font-size: 1.3rem;
+  color: var(--dark-gray);
+}
+
+/* CTA Section */
+.bg-maroon {
+  background-color: var(--maroon) !important;
+}
+
+.cta-input {
+  max-width: 400px;
+  border-radius: 50px;
+  padding: 10px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.cta-input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.cta-input:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: #fff;
+  box-shadow: none;
+  color: #fff;
+}
+
+.cta-button {
+  border-radius: 50px;
+  padding: 10px 25px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #fff;
+  color: var(--maroon) !important;
+  transform: translateY(-2px);
+}
+
+/* Section Padding */
+section {
+  padding: 80px 0; /* Padding lebih besar */
+}
+
+/* Footer */
+footer {
+  background-color: var(--dark-gray) !important;
+  padding: 30px 0;
+  font-size: 0.9rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 3rem;
+  }
+  .hero-section .lead {
+    font-size: 1.2rem;
+  }
+  .btn-lg {
+    padding: 10px 25px;
+    font-size: 1rem;
+  }
+  .cta-input {
+    margin-bottom: 15px;
+    max-width: 100%;
+  }
+  .cta-button {
+    width: 100%;
+  }
+}
+
+/* Product Detail Page Specific Styles */
+#product-detail-section {
+  padding-top: 80px; /* Adjust for fixed navbar */
+}
+
+#main-product-image {
+  width: 100%;
+  height: 500px; /* Fixed height for main image */
+  object-fit: cover;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.product-thumbnail-gallery img {
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.2s ease;
+  height: 100px; /* Fixed height for thumbnails */
+  object-fit: cover;
+}
+
+.product-thumbnail-gallery img:hover,
+.product-thumbnail-gallery img.active {
+  border-color: var(--maroon);
+  box-shadow: 0 0 5px rgba(128, 0, 0, 0.5);
+}
+
+.form-select,
+.form-control {
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px 15px;
+}
+
+.form-select:focus,
+.form-control:focus {
+  border-color: var(--maroon);
+  box-shadow: 0 0 0 0.25rem rgba(128, 0, 0, 0.25);
+}
+
+.d-grid button {
+  font-size: 1.2rem;
+  padding: 12px 30px;
+}
+
+/* Custom Styles for Devianto Store */
+
+/* ... (Kode CSS yang sudah ada sebelumnya) ... */
+
+/* Shopping Cart Specific Styles */
+#shopping-cart-section {
+  padding-top: 80px; /* Adjust for fixed navbar */
+}
+
+.cart-item {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.cart-item-img {
+  width: 100px; /* Lebar gambar produk di keranjang */
+  height: 100px; /* Tinggi gambar produk di keranjang */
+  object-fit: cover;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.cart-item h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--dark-gray);
+}
+
+.cart-item .text-muted {
+  font-size: 0.85rem;
+}
+
+.cart-item .form-control-sm {
+  padding: 0.375rem 0.25rem;
+  height: calc(1.5em + 0.75rem + 2px); /* Menyesuaikan tinggi input */
+}
+
+/* Make sticky-top work well */
+@media (min-width: 992px) {
+  /* On large screens and up */
+  .sticky-top {
+    position: sticky;
+    top: 80px; /* Adjust if your navbar height changes */
+    align-self: flex-start; /* Ensure it sticks from the top of its flex container */
+  }
+}
+
+/* ... (Kode CSS lainnya) ... */
+/* Custom Styles for Devianto Store */
+
+/* ... (Kode CSS yang sudah ada sebelumnya) ... */
+
+/* Checkout Specific Styles */
+#checkout-section {
+  padding-top: 80px; /* Adjust for fixed navbar */
+}
+
+#checkout-form .form-control,
+#checkout-form .form-check-input {
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#checkout-form .form-control:focus,
+#checkout-form .form-check-input:checked {
+  border-color: var(--maroon);
+  box-shadow: 0 0 0 0.25rem rgba(128, 0, 0, 0.25);
+}
+
+/* Make sticky-top work well in checkout */
+@media (min-width: 992px) {
+  /* On large screens and up */
+  .sticky-top {
+    position: sticky;
+    top: 80px;
+    align-self: flex-start;
+  }
+}
+/* ... (Kode CSS lainnya) ... */
+
+/* Custom Styles for Devianto Store */
+
+/* ... (Kode CSS yang sudah ada sebelumnya) ... */
+
+/* Toast Notifications */
+/* Custom Styles for Devianto Store */
+
+/* ... (Kode CSS yang sudah ada sebelumnya) ... */
+
+/* Toast Notifications */
+.toast-container {
+  z-index: 1080;
+}
+
+.toast {
+  width: 500px; /* Lebar Toast diatur di sini, Anda bisa mengubahnya */
+  max-width: 100%; /* Memastikan tidak melebihi lebar layar pada perangkat kecil */
+}
+
+.toast-body {
+  display: flex;
+  align-items: center;
+  color: inherit;
+  font-size: 0.9rem; /* Opsional: Sesuaikan ukuran font jika pesan sangat panjang */
+}
+
+.toast-body i {
+  font-size: 1.2rem;
+}
+
+.toast .btn-close-white {
+  filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+/* ... (Kode CSS lainnya) ... */
