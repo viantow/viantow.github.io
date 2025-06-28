@@ -1,83 +1,87 @@
 // products-data.js
-const productsData = { 
-    '2': {
-        name: 'Blouse Wanita Katun Motif Salur Premium',
-        price: 175000,
-        description: `🧥 Kemeja Wanita Salur Lengan Panjang – Elegan & Nyaman Sepanjang Hari! Tampil rapi & kece dengan kemeja salur berbahan Cotton Premium yang adem, halus, dan sedikit silky. Cocok dipakai kerja, meeting, atau santai nongkrong bareng bestie! ✨ Fitur: Material: Cotton Salur Premium – adem, breathable, lembut. Desain salur vertikal + kerah reguler elegan. Cuttingan pas di pundak, siluet rapi & feminim. Model lengan panjang cocok untuk formal & casual. 📏 Ukuran (All Size): Lingkar Dada: 110 cm, Panjang Badan: 74 cm, Panjang Lengan: 60 cm (Toleransi ±1–2 cm). 💬 Testimoni real: \"Jatuh di badan, adem banget, nyaman seharian!\" 📦 Ready stock – dikirim cepat 1x24 jam. Terima reseller & dropship. Foto real pict — kualitas dijamin!`,
-        images: [
-            '../img/product/2-kemeja-wanita-salur-lengan-panjang/display.png',
-            '../img/product/2-kemeja-wanita-salur-lengan-panjang/gambar.png',
-            '../img/product/2-kemeja-wanita-salur-lengan-panjang/gambar-1.png',
-            '../img/product/2-kemeja-wanita-salur-lengan-panjang/gambar-2.png',
-            '../img/product/2-kemeja-wanita-salur-lengan-panjang/gambar-3.png'
-        ],
-        sizes: ['S', 'M', 'L', 'XL'],
-        colors: ['Putih', 'Krem', 'Biru Muda'],
-        category: 'atasan' // Kategori baru
-    },
-    '102': {
-        name: 'Dress Midi Floral',
-        price: 320000,
-        description: 'Dress midi dengan motif floral yang cerah, memberikan kesan feminin dan segar. Ideal untuk acara santai maupun semi-formal.',
-        images: [
-            '../http://googleusercontent.com/image_collection/image_retrieval/12738882231300534042',
-            '../img/products/dress1_thumb1.jpg',
-            '../img/products/dress1_thumb2.jpg'
-        ],
-        sizes: ['S', 'M', 'L'],
-        colors: ['Kuning', 'Pink', 'Hijau'],
-        category: 'dress' // Kategori baru
-    },
-    '103': {
-        name: 'Celana Palazzo Linen',
-        price: 210000,
-        description: 'Celana palazzo dari bahan linen berkualitas tinggi, sangat nyaman dan stylish untuk gaya kasual maupun formal.',
-        images: [
-            '../http://googleusercontent.com/image_collection/image_retrieval/17041652458924895743',
-            '../img/products/palazzo1_thumb1.jpg',
-            '../img/products/palazzo1_thumb2.jpg'
-        ],
-        sizes: ['S', 'M', 'L', 'XL'],
-        colors: ['Hitam', 'Beige', 'Abu-abu'],
-        category: 'bawahan' // Kategori baru
-    },
-    '104': {
-        name: 'Kemeja Denim Trendy',
-        price: 280000,
-        description: 'Kemeja denim modern dengan potongan oversized yang nyaman dan gaya. Cocok untuk tampilan kasual yang chic.',
-        images: [
-            '../http://googleusercontent.com/image_collection/image_retrieval/15295758763496965927',
-            '../img/products/kemeja1_thumb1.jpg',
-            '../img/products/kemeja1_thumb2.jpg'
-        ],
-        sizes: ['S', 'M', 'L'],
-        colors: ['Biru Muda', 'Biru Tua'],
-        category: 'atasan' // Kategori baru
-    },
-    '105': { 
-        name: 'Gaun Pesta Mewah',
-        price: 550000,
-        description: 'Gaun pesta elegan dengan potongan modern dan detail payet berkilau. Sempurna untuk tampil menawan di setiap kesempatan istimewa.',
-        images: [
-            '../http://googleusercontent.com/image_collection/image_retrieval/2646306585890884538',
-            '../img/products/gaun1_thumb1.jpg',
-            '../img/products/gaun1_thumb2.jpg'
-        ],
-        sizes: ['S', 'M', 'L'],
-        colors: ['Gold', 'Silver', 'Hitam'],
-        category: 'dress' // Kategori baru
-    },
-    '106': {
-        name: 'Rok Plisket Modis',
-        price: 195000,
-        description: 'Rok plisket dengan desain modern dan bahan jatuh yang elegan. Cocok untuk gaya formal maupun kasual.',
-        images: [
-            '../http://googleusercontent.com/image_collection/image_retrieval/7127110230990417941',
-            '../img/products/rok1_thumb1.jpg',
-            '../img/products/rok1_thumb2.jpg'
-        ],
-        sizes: ['All Size'],
-        colors: ['Coklat', 'Hijau Army', 'Marun'],
-        category: 'bawahan' // Kategori baru
-    }
+const productsData = {
+  1: {
+    name: "Blouse Wanita Katun Motif Salur Premium",
+    price: 120000,
+    description: `🧥 Kemeja Wanita Salur Lengan Panjang – Elegan & Nyaman Sepanjang Hari! Tampil rapi & kece dengan kemeja salur berbahan Cotton Premium yang adem, halus, dan sedikit silky. Cocok dipakai kerja, meeting, atau santai nongkrong bareng bestie! ✨ Fitur: Material: Cotton Salur Premium – adem, breathable, lembut. Desain salur vertikal + kerah reguler elegan. Cuttingan pas di pundak, siluet rapi & feminim. Model lengan panjang cocok untuk formal & casual. 📏 Ukuran (All Size): Lingkar Dada: 110 cm, Panjang Badan: 74 cm, Panjang Lengan: 60 cm (Toleransi ±1–2 cm). 💬 Testimoni real: \"Jatuh di badan, adem banget, nyaman seharian!\" 📦 Ready stock – dikirim cepat 1x24 jam. Terima reseller & dropship. Foto real pict — kualitas dijamin!`,
+    images: [
+      "../img/product/Kemeja-Wanita-Lengan-Panjang-Motif-Salur-Premium/model1.png",
+      "../img/product/Kemeja-Wanita-Lengan-Panjang-Motif-Salur-Premium/model2.png",
+      "../img/product/Kemeja-Wanita-Lengan-Panjang-Motif-Salur-Premium/display.png",
+      "../img/product/Kemeja-Wanita-Lengan-Panjang-Motif-Salur-Premium/gambar.png",
+    ],
+    sizes: ["All Size"],
+    colors: ["Blue sky"],
+    category: "atasan", // Kategori baru
+  },
+  2: {
+    name: "Tshirt Polo Crop Top Rajut Premium",
+    price: 80000,
+    description: "kaos Polo Crop Top Rajut Premium Lembut Halus dan nyaman",
+    images: [
+      "../img/product/Crop-Top-Rajut-Polo-1/model-1.png",
+      "../img/product/Crop-Top-Rajut-Polo-1/model-2.png",
+      "../img/product/Crop-Top-Rajut-Polo-1/dark-grey-v.png",
+      "../img/product/Crop-Top-Rajut-Polo-1/soft-red-v.png",
+      "../img/product/Crop-Top-Rajut-Polo-1/matcha-v.png",
+      "../img/product/Crop-Top-Rajut-Polo-1/soft-purple-v.png",
+    ],
+    sizes: ["All Size"],
+    colors: ["Dark Grey", "Red Teracotta", "Matcha", "Soft Purple"],
+    category: "atasan", // Kategori baru
+  },
+  3: {
+    name: "Tshirt Polo Crop Top Rajut Premium Motif",
+    price: 80000,
+    description: "kaos Polo Crop Top Rajut Premium Lembut Halus dan nyaman",
+    images: [
+      "../img/product/Crop-Top-Rajut-Polo-2/model1.png",
+      "../img/product/Crop-Top-Rajut-Polo-2/model2.png",
+      "../img/product/Crop-Top-Rajut-Polo-2/display1.png",
+      "../img/product/Crop-Top-Rajut-Polo-2/display2.png",
+      "../img/product/Crop-Top-Rajut-Polo-2/grey-lavender-v.png",
+      "../img/product/Crop-Top-Rajut-Polo-2/grey-v.jpeg",
+      "../img/product/Crop-Top-Rajut-Polo-2/cream-v.png",
+    ],
+    sizes: ["All Size"],
+    colors: ["Dusty Pink", "Cream", "Grey Lavender", "Grey"],
+    category: "atasan", // Kategori baru
+  },
+  4: {
+    name: "Rok Panjang Elegan Model Plisket",
+    price: 90000,
+    description: "Rok Panjang Plisket Premium, nyaman dan stylish",
+    images: [
+      "../img/product/Rok-Plisket-Premium/rok-ai-8.jpg",
+      "../img/product/Rok-Plisket-Premium/rok-ai-2.jpg",
+      "../img/product/Rok-Plisket-Premium/rok-ai-3.jpg",
+      "../img/product/Rok-Plisket-Premium/rok-ai-6.jpg",
+      "../img/product/Rok-Plisket-Premium/rok-ai-7.jpg",
+      "../img/product/Rok-Plisket-Premium/rok-ai-10.png",
+      "../img/product/Rok-Plisket-Premium/rok-ai-11.png",
+      "../img/product/Rok-Plisket-Premium/rok-ai-12.jpg",
+      "../img/product/Rok-Plisket-Premium/Biru-muda2.png",
+      "../img/product/Rok-Plisket-Premium/display2.png",
+      "../img/product/Rok-Plisket-Premium/display3.png",
+      "../img/product/Rok-Plisket-Premium/dusty-pink2.png",
+      "../img/product/Rok-Plisket-Premium/hijau-botol2.png",
+      "../img/product/Rok-Plisket-Premium/hijau-burgundy2.png",
+      "../img/product/Rok-Plisket-Premium/hitam2.png",
+      "../img/product/Rok-Plisket-Premium/marun2.png",
+      "../img/product/Rok-Plisket-Premium/sage2.png",
+      "../img/product/Rok-Plisket-Premium/tosca2.png",
+    ],
+    sizes: ["All Size"],
+    colors: [
+      "Hitam",
+      "Marun",
+      "Biru Muda",
+      "Dusty Pink",
+      "Hijau Botol",
+      "Hijau Burgundy",
+      "Hijau",
+      "Tosca",
+    ],
+    category: "bawahan", // Kategori baru
+  },
 };

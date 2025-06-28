@@ -91,7 +91,10 @@ button {
 .nav-link:hover {
   color: var(--maroon) !important;
 }
-
+.list-group-item.active {
+  border-color: var(--primary-maroon);
+  background-color: var(--primary-maroon) !important;
+}
 /* Hero Section */
 .hero-section {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -180,7 +183,7 @@ button {
 }
 
 .header-bg {
-  background-image: url("../img/product/mitzy/header.png");
+  background-image: url("../img/product/header.png");
   background-size: cover;
   animation: fadeIn 1s ease-in forwards;
 }
@@ -565,7 +568,7 @@ footer {
   .product-item {
     flex: 0 0 auto;
     width: 50%;
-    padding:2px
+    padding: 2px;
   }
 
   .product-card .card-img-top {
@@ -669,7 +672,10 @@ footer {
   .list-group-item {
     font-size: 0.9rem;
   }
-
+  .list-group-item.active {
+    border-color: var(--primary-maroon);
+    background-color: var(--primary-maroon) !important;
+  }
   /* Contact Info */
   #contact-info p.lead {
     font-size: 0.9rem;
