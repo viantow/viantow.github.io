@@ -37,14 +37,11 @@ $(document).ready(function() {
 
         productsArray.forEach(product => {
             const productHtml = `
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-4 product-item ${product.category}">
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-2 product-item ${product.category}">
                     <div class="card product-card h-100 shadow-sm">
                         <img src="${product.images[0] || 'img/placeholder.jpg'}" class="card-img-top" alt="${product.name}">
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title text-maroon">${product.name}</h5>
-                            <p class="card-text text-muted mb-auto">
-                                ${product.description.substring(0, 100)}...
-                            </p>
                             <p class="card-price fw-bold text-dark fs-5">${formatRupiah(product.price)}</p>
                             <div class="mt-3 d-flex justify-content-center">
                                 <a href="pages/product-detail.html?id=${product.id}" class="btn btn-outline-primary btn-sm rounded-pill me-2">
