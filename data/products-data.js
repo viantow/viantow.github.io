@@ -117,7 +117,9 @@ Reseller & dropshipper welcome!`,
     category: "atasan", // Kategori baru
   },
   4: {
-    name: `Rok Plisket Premium – Stylish untuk Remaja & Dewasa!\n
+    name: `Rok Panjang Premium Elegan Model Plisket`,
+    price: 90000,
+    description:`Rok Plisket Premium – Stylish untuk Remaja & Dewasa!\n
 Tampil anggun dan nyaman dengan **Rok Plisket Kekinian** berbahan **Hyget Premium Grade A**.\n
 Tebal, lentur, tidak menerawang, dengan jahitan rapi dan model payung (flare) flowy.\n
 Ideal untuk santai, kuliah, kerja, atau acara semi-formal.\n
@@ -144,8 +146,6 @@ Ideal untuk santai, kuliah, kerja, atau acara semi-formal.\n
 \n
 Follow kami untuk diskon & update harga termurah setiap hari!\n
 **Yuk, segera miliki Rok Plisket Premium ini dan tampil menawan!**`,
-    price: 90000,
-    description: "Rok Panjang Plisket Premium, nyaman dan stylish",
     images: [
       "../img/product/Rok-Plisket-Premium/rok-ai-8.jpg",
       "../img/product/Rok-Plisket-Premium/rok-ai-2.jpg",
