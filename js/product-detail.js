@@ -11,7 +11,9 @@ $(document).ready(function() {
             $('#product-description').html(product.description.replace(/\n/g, '<br>')); // Handle newlines
             
             // Set main image
-            $('#main-product-image').attr('src', product.images[0] || '../img/placeholder.jpg');
+            $('#main-product-image')
+                .attr('src', product.images[0] || '../img/placeholder.jpg')
+                .attr('alt', product.name || 'Product Image');
 
             // Clear previous thumbnails
             $('#product-thumbnails').empty();
