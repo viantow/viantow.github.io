@@ -228,6 +228,6 @@ Yuk, langsung checkout! Dijamin gak bakal nyesel!`,
     ],
     sizes: ["S", "M", "L", "XL"],
     colors: ["Coklat Susu", "Hitam", "Putih"],
-    category: "atasan", // Kategori baru
+    category: "bawahan", // Kategori baru
   },
 };
