@@ -4,16 +4,16 @@ const productsData = {
     name: "Blouse Wanita Katun Motif Salur Premium",
     price: 120000,
     description: `Kemeja Wanita Salur Lengan Panjang – Elegan & Nyaman Sepanjang Hari!
-Tampil rapi dan kece dengan **Kemeja Salur Wanita Lengan Panjang** berbahan **Cotton Salur Premium**.
+Tampil rapi dan kece dengan Kemeja Salur Wanita Lengan Panjang berbahan Cotton Salur Premium.
 Halus, adem, dan super nyaman untuk aktivitas harian, dari nongkrong santai hingga meeting formal.
 
-**Fitur Unggulan:**
+Fitur Unggulan:
 * Material: Cotton Salur Premium – adem, breathable, lembut
 * Desain salur vertikal & kerah elegan
 * Cuttingan pas di pundak, siluet rapi & feminin
 * Lengan panjang, cocok untuk gaya santai atau formal
 
-**Detail Ukuran (All Size):**
+Detail Ukuran (All Size):
 * Lingkar Dada: 110 cm
 * Lingkar Leher: 40 cm
 * Lingkar Ketiak: 50 cm
@@ -22,15 +22,15 @@ Halus, adem, dan super nyaman untuk aktivitas harian, dari nongkrong santai hing
 * Panjang Lengan: 60 cm
 (Toleransi ±1-2 cm)
 
-**Info Penting:**
+Info Penting:
 * Stok ready & kirim cepat 1x24 jam
 * Terima reseller & dropship
 * Foto produk asli, real pict tanpa edit
 * Kualitas dijamin, orderan aman & terpercaya
 
-**Testimoni:** "Nyaman banget dipakainya, jatuh dan adem di badan!"
+Testimoni: "Nyaman banget dipakainya, jatuh dan adem di badan!"
 
-**Yuk, gas langsung checkout! Dijamin gak bakal nyesel!**`,
+Yuk, gas langsung checkout! Dijamin gak bakal nyesel!`,
     images: [
       "../img/product/Kemeja-Wanita-Lengan-Panjang-Motif-Salur-Premium/model1.png",
       "../img/product/Kemeja-Wanita-Lengan-Panjang-Motif-Salur-Premium/model2.png",
@@ -45,26 +45,26 @@ Halus, adem, dan super nyaman untuk aktivitas harian, dari nongkrong santai hing
     name: "Tshirt Polo Crop Top Rajut Premium",
     price: 80000,
     description: `Atasan Crop Rajut Remaja – Korean Style Polo T-Shirt
-Tampil **trendi & comfy** dengan gaya ala Korea yang kekinian!
+Tampil trendi & comfy dengan gaya ala Korea yang kekinian!
 
-**Detail Produk:**
-* **Bahan:** Katun Knit Rib Premium (super stretch, adem, lembut, tidak panas)
-* **Model:** Crop Polo T-shirt fit gaya remaja & Korean look
+Detail Produk:
+* Bahan: Katun Knit Rib Premium (super stretch, adem, lembut, tidak panas)
+* Model: Crop Polo T-shirt fit gaya remaja & Korean look
 
-**Ukuran All Size (Fit S–L):**
+Ukuran All Size (Fit S–L):
 * Lingkar Dada: ±80 cm (melar)
 * Panjang Baju: ±43 cm
 * Toleransi ukuran ±1–2 cm
 
-**Pilihan Warna Lengkap – Semua READY STOCK!**
+Pilihan Warna Lengkap – Semua READY STOCK!
 
-**Kenapa Wajib Punya?**
+Kenapa Wajib Punya?
 ✓ Bahan premium, nyaman dipakai seharian
 ✓ Cocok untuk hangout, OOTD, kampus, atau nongkrong
 ✓ Harga hemat, kualitas tidak murahan
 
-**Siap kirim setiap hari.**
-**Real pict – Barang sesuai foto.**
+Siap kirim setiap hari.
+Real pict – Barang sesuai foto.
 Reseller & dropshipper welcome!`,
     images: [
       "../img/product/Crop-Top-Rajut-Polo-1/model-1.png",
@@ -82,26 +82,26 @@ Reseller & dropshipper welcome!`,
     name: "Tshirt Polo Crop Top Rajut Premium Motif",
     price: 80000,
     description: `Atasan Crop Rajut Remaja – Korean Style Polo T-Shirt
-Tampil **trendi & comfy** dengan gaya ala Korea yang kekinian!
+Tampil trendi & comfy dengan gaya ala Korea yang kekinian!
 
-**Detail Produk:**
-* **Bahan:** Katun Knit Rib Premium (super stretch, adem, lembut, tidak panas)
-* **Model:** Crop Polo T-shirt fit gaya remaja & Korean look
+Detail Produk:
+* Bahan: Katun Knit Rib Premium (super stretch, adem, lembut, tidak panas)
+* Model: Crop Polo T-shirt fit gaya remaja & Korean look
 
-**Ukuran All Size (Fit S–L):**
+Ukuran All Size (Fit S–L):
 * Lingkar Dada: ±80 cm (melar)
 * Panjang Baju: ±43 cm
 * Toleransi ukuran ±1–2 cm
 
-**Pilihan Warna Lengkap – Semua READY STOCK!**
+Pilihan Warna Lengkap – Semua READY STOCK!
 
-**Kenapa Wajib Punya?**
+Kenapa Wajib Punya?
 ✓ Bahan premium, nyaman dipakai seharian
 ✓ Cocok untuk hangout, OOTD, kampus, atau nongkrong
 ✓ Harga hemat, kualitas tidak murahan
 
-**Siap kirim setiap hari.**
-**Real pict – Barang sesuai foto.**
+Siap kirim setiap hari.
+Real pict – Barang sesuai foto.
 Reseller & dropshipper welcome!`,
     images: [
       "../img/product/Crop-Top-Rajut-Polo-2/model1.png",
@@ -119,33 +119,33 @@ Reseller & dropshipper welcome!`,
   4: {
     name: `Rok Panjang Premium Elegan Model Plisket`,
     price: 90000,
-    description:`Rok Plisket Premium – Stylish untuk Remaja & Dewasa!
-Tampil anggun dan nyaman dengan **Rok Plisket Kekinian** berbahan **Hyget Premium Grade A**.
+    description: `Rok Plisket Premium – Stylish untuk Remaja & Dewasa!
+Tampil anggun dan nyaman dengan Rok Plisket Kekinian berbahan Hyget Premium Grade A.
 Tebal, lentur, tidak menerawang, dengan jahitan rapi dan model payung (flare) flowy.
 Ideal untuk santai, kuliah, kerja, atau acara semi-formal.
 
-**Kenapa Wajib Punya?**
+Kenapa Wajib Punya?
 * Material Hyget Super Premium: tebal, lembut, adem, lentur
 * Nyaman untuk aktivitas outdoor/indoor (tidak menerawang)
 * Model payung anggun
 * Pinggang full karet kerut: elastis & nyaman (depan-belakang)
 * Produksi sendiri: harga lebih murah, kualitas no.1!
 
-**Detail Ukuran (All Size):**
+Detail Ukuran (All Size):
 * Lingkar Pinggang: 60 cm (melar s.d. 100 cm)
 * Panjang Rok: 90–92 cm
 * Lebar Rok: 2,5 meter
 * Fit untuk BB 40–85 kg
 (Toleransi ±2 cm)
 
-**Info Penting:**
-* **Ready Stock – Kirim cepat 1x24 jam**
+Info Penting:
+* Ready Stock – Kirim cepat 1x24 jam
 * 1 KG muat hingga 4 pcs (hemat ongkir!)
 * Cara order beda warna: pilih warna ➔ 'Masukkan Keranjang' ➔ pilih warna lain ➔ Checkout
 * Komplain wajib sertakan video unboxing (komunikasi sopan ya sis!)
 
 Follow kami untuk diskon & update harga termurah setiap hari!
-**Yuk, segera miliki Rok Plisket Premium ini dan tampil menawan!**`,
+Yuk, segera miliki Rok Plisket Premium ini dan tampil menawan!`,
     images: [
       "../img/product/Rok-Plisket-Premium/rok-ai-8.jpg",
       "../img/product/Rok-Plisket-Premium/rok-ai-2.jpg",
@@ -178,5 +178,56 @@ Follow kami untuk diskon & update harga termurah setiap hari!
       "Tosca",
     ],
     category: "bawahan", // Kategori baru
+  },
+  5: {
+    name: "Celana Kulot Scuba Premium - model garis tulang",
+    price: 145000,
+    description: `Celana Kulot Scuba Cubit Garis Tulang Premium – Nyaman, Stylish, Elegan!
+
+Dapatkan kenyamanan maksimal dengan Celana Kulot Scuba Cubit Premium kami. Terbuat dari bahan scuba premium yang lembut, jatuh, adem, dan tidak mudah kusut. Cocok banget buat aktivitas harian sampai acara semi-formal, bikin kamu tampil rapi dan elegan.
+
+Keunggulan Kulot Ini:
+Bahan Scuba Premium: Lembut, jatuh sempurna, dan tidak menerawang.
+
+Highwaist Cutting: Bikin kaki terlihat lebih jenjang.
+
+Ada Saku Kanan: Praktis banget buat naruh kunci atau HP.
+
+Karet Pinggang Belakang: Fleksibel, nyaman dipakai seharian penuh.
+
+Model Stik Depan: Tampilan makin rapi dan stylish.
+
+Ukuran Lengkap: Tersedia dari S hingga XL (untuk BB 43–80kg).
+
+Detail Ukuran (Toleransi ±1-2 cm):
+Size S (BB 43–50kg): Lingkar pinggang: 75–80 cm | Panjang celana: ±90 cm | Lingkar paha: 62 cm
+
+Size M (BB 50–58kg): Lingkar pinggang: 85–90 cm | Panjang celana: ±92 cm | Lingkar paha: 62 cm
+
+Size L (BB 58–65kg): Lingkar pinggang: 95–100 cm | Panjang celana: ±92 cm | Lingkar paha: 64 cm
+
+Size XL (BB 65–80kg): Lingkar pinggang: 105–110 cm | Panjang celana: ±96 cm | Lingkar paha: 65 cm
+
+Info Penting:
+Stok REAL Ready: Langsung kirim 1x24 jam setelah pembayaran.
+
+Foto Asli Produk: Dijamin real pict, sesuai yang kamu lihat!
+
+Terima Reseller & Dropship: 100% aman dan terpercaya.
+
+Garansi Produk 100%: Kalau ada kerusakan, langsung hubungi kami sebelum kasih penilaian. Kami ganti baru! Belanja tanpa khawatir.
+
+Testimoni: "Sumpah! Kulotnya nyaman banget dipakainya, jatuh dan adem di badan. Kelihatan mewah!"
+
+Yuk, langsung checkout! Dijamin gak bakal nyesel!`,
+    images: [
+      "../img/product/kulot-scuba-premium-model-garis-tulang/hitam1.png",
+      "../img/product/kulot-scuba-premium-model-garis-tulang/coksu.png",
+      "../img/product/kulot-scuba-premium-model-garis-tulang/hitam2.png",
+      "../img/product/kulot-scuba-premium-model-garis-tulang/putih.png",
+    ],
+    sizes: ["S M L XL"],
+    colors: ["Coklat Susu", "Hitam", "Putih"],
+    category: "atasan", // Kategori baru
   },
 };
