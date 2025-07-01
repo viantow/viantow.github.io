@@ -180,7 +180,7 @@ Yuk, segera miliki Rok Plisket Premium ini dan tampil menawan!`,
     category: "bawahan", // Kategori baru
   },
   5: {
-    name: "Celana Kulot Scuba Premium - model garis tulang",
+    name: "Celana Kulot Scuba Premium - Model Cubit Garis Tulang",
     price: 145000,
     description: `Celana Kulot Scuba Cubit Garis Tulang Premium – Nyaman, Stylish, Elegan!
 
