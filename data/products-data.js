@@ -226,7 +226,7 @@ Yuk, langsung checkout! Dijamin gak bakal nyesel!`,
       "../img/product/kulot-scuba-premium-model-garis-tulang/hitam2.png",
       "../img/product/kulot-scuba-premium-model-garis-tulang/putih.png",
     ],
-    sizes: ["S M L XL"],
+    sizes: ["S", "M", "L", "XL"],
     colors: ["Coklat Susu", "Hitam", "Putih"],
     category: "atasan", // Kategori baru
   },
