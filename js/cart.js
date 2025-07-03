@@ -16,7 +16,7 @@ $(document).ready(function() {
             cart.forEach(item => {
                 const itemHtml = `
                     <div class="cart-item d-flex align-items-center mb-3 p-3 border rounded shadow-sm-sm">
-                        <img src="${item.image || '../img/placeholder.jpg'}" class="cart-item-img me-3 rounded" alt="${item.name}">
+                        <img src="${item.image || '../img/product/logo.jpg'}" class="cart-item-img me-3 rounded" alt="${item.name}">
                         <div class="flex-grow-1">
                             <h5 class="mb-1">${item.name}</h5>
                             <p class="text-muted mb-1 small">${item.size && item.size !== 'Default' ? 'Ukuran: ' + item.size : ''}${item.color && item.color !== 'Default' ? ', Warna: ' + item.color : ''}</p>

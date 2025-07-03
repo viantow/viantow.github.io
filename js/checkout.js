@@ -17,7 +17,7 @@ $(document).ready(function() {
             cart.forEach(item => {
                 const itemHtml = `
                     <div class="d-flex align-items-center mb-2">
-                        <img src="${item.image || '../img/placeholder.jpg'}" class="me-2 rounded" style="width: 50px; height: 50px; object-fit: cover;" alt="${item.name}">
+                        <img src="${item.image || '../img/product/logo.jpg'}" class="me-2 rounded" style="width: 50px; height: 50px; object-fit: cover;" alt="${item.name}">
                         <div class="flex-grow-1">
                             <p class="mb-0 fw-bold">${item.name}</p>
                             <p class="mb-0 small text-muted">${item.quantity} x ${formatRupiah(item.price)} ${item.size && item.size !== 'Default' ? ' (Uk: ' + item.size + ')' : ''}${item.color && item.color !== 'Default' ? ' (Wr: ' + item.color + ')' : ''}</p>
