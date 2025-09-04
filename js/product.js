@@ -16,7 +16,7 @@
             const productHtml = `
 <div class="col-md-4 mb-4 product-item ${product.category}">
    <div class="card shadow-sm h-100">
-     <a href="product-detail.html?id=${ product.id }"> <img src="${product.images[0] || '../img/placeholder.jpg'}" class="card-img-top" alt="${product.name}"></a>
+     <a href="product-detail.html?id=${ product.id }"> <img src="${product.images[0] || '../img/placeholder.jpg'}" class="card-img-top" style="max-height:400px;object-fit:cover;" alt="${product.name}"></a>
       <div class="card-body d-flex flex-column">
          <h5 class="card-title text-maroon">${product.name}</h5>
          <p class="card-price fw-bold text-dark fs-5">${formatRupiah(product.price)}</p>
