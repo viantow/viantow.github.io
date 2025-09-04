@@ -269,6 +269,6 @@ Yuk, langsung checkout! Dijamin gak bakal nyesel!`,
     ],
     sizes: ["AllSize"],
     colors: ["Coklat Susu", "Hitam", "Mint", "Pink", "Plum"],
-    category: "bawahan", // Kategori baru
+    category: "atasan", // Kategori baru
   },
 };
