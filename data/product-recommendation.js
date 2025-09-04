@@ -35,6 +35,7 @@ const recommendedProductsData = {
       "./img/product/Crop-Top-Rajut-Polo-2/display1.webp",
       "./img/product/Crop-Top-Rajut-Polo-2/display2.webp",
       "./img/product/Crop-Top-Rajut-Polo-2/grey-lavender-v.webp",
+      "./img/product/Crop-Top-Rajut-Polo-2/pink.webp",
       "./img/product/Crop-Top-Rajut-Polo-2/grey-v.webp",
     ],
     category: "atasan",

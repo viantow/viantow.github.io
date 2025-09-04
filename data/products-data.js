@@ -111,6 +111,7 @@ Reseller & dropshipper welcome!`,
       "../img/product/Crop-Top-Rajut-Polo-2/grey-lavender-v.webp",
       "../img/product/Crop-Top-Rajut-Polo-2/grey-v.webp",
       "../img/product/Crop-Top-Rajut-Polo-2/cream-v.webp",
+      "./img/product/Crop-Top-Rajut-Polo-2/pink.webp",
     ],
     sizes: ["All Size"],
     colors: ["Dusty Pink", "Cream", "Grey Lavender", "Grey"],
@@ -156,7 +157,6 @@ Yuk, segera miliki Rok Plisket Premium ini dan tampil menawan!`,
       "../img/product/Rok-Plisket-Premium/pink.webp",
       "../img/product/Rok-Plisket-Premium/tosca.webp",
       "../img/product/Rok-Plisket-Premium/tosca2.webp",
-
     ],
     sizes: ["All Size"],
     colors: [
@@ -220,6 +220,55 @@ Yuk, langsung checkout! Dijamin gak bakal nyesel!`,
     ],
     sizes: ["S", "M", "L", "XL"],
     colors: ["Coklat Susu", "Hitam", "Putih"],
+    category: "bawahan", // Kategori baru
+  },
+
+  6: {
+    name: "Kaos Wanita Casual – T-Shirt Basic O-Neck Kancing Polos",
+    price: 60000,
+    description: `Atasan Wanita – Kaos Rumahan T-Shirt Basic O-Neck Kekinian
+
+✨ Simple, adem & stylish! Kaos nyaman untuk dipakai sehari-hari dengan harga bersahabat.
+
+🔎 Detail Produk:
+• Bahan: Katun Stretch Premium – super adem, lembut, kuat & nyaman dipakai  
+• Model: T-shirt basic O-neck cocok untuk santai, kerja di rumah, maupun hangout  
+
+👕 Varian & Ukuran:  
+1. Regular Basic (O-neck polos)  
+   - Allsize (fit S–L)  
+   - Lingkar Dada: ±80 cm  
+   - Panjang Baju: ±58 cm  
+   - Toleransi: ±1–2 cm  
+
+2. Model Kancing (casual & manis)  
+   - Allsize (fit S–L)  
+   - Lingkar Dada: ±78 cm  
+   - Panjang Baju: ±54 cm  
+   - Toleransi: ±1–2 cm  
+
+💡 Kenapa wajib punya?
+✓ Bahan adem, nggak bikin gerah  
+✓ Nyaman dipakai seharian  
+✓ Desain simple tapi tetap modis  
+✓ Harga promo dengan kualitas premium  
+
+📦 Ready Stock → bisa langsung checkout  
+📸 Foto real pict  
+🤝 Reseller & dropship welcome!  
+
+#kaoswanita #kaosrumahan #tshirtbasic #bajuharian #ootdcewek #kaospoloswanita #kaoskekinian #dailywear
+`,
+    images: [
+      "../img/product/Tshirt-Basic-Oneck_Lucu/coksu.webp",
+      "../img/product/Tshirt-Basic-Oneck_Lucu/hitam.webp",
+      "../img/product/Tshirt-Basic-Oneck_Lucu/mint.webp",
+      "../img/product/Tshirt-Basic-Oneck_Lucu/pink.webp",
+      "../img/product/Tshirt-Basic-Oneck_Lucu/plum.webp",
+
+    ],
+    sizes: ["AllSize"],
+    colors: ["Coklat Susu", "Hitam", "Mint", "Pink", "Plum"],
     category: "bawahan", // Kategori baru
   },
 };
