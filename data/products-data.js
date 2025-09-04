@@ -222,7 +222,6 @@ Yuk, langsung checkout! Dijamin gak bakal nyesel!`,
     colors: ["Coklat Susu", "Hitam", "Putih"],
     category: "bawahan", // Kategori baru
   },
-
   6: {
     name: "Kaos Wanita Casual – T-Shirt Basic O-Neck Kancing Polos",
     price: 60000,
@@ -260,15 +259,60 @@ Yuk, langsung checkout! Dijamin gak bakal nyesel!`,
 #kaoswanita #kaosrumahan #tshirtbasic #bajuharian #ootdcewek #kaospoloswanita #kaoskekinian #dailywear
 `,
     images: [
+      "../img/product/Tshirt-Basic-Oneck_Lucu/plum.webp",
       "../img/product/Tshirt-Basic-Oneck_Lucu/coksu.webp",
       "../img/product/Tshirt-Basic-Oneck_Lucu/hitam.webp",
       "../img/product/Tshirt-Basic-Oneck_Lucu/mint.webp",
       "../img/product/Tshirt-Basic-Oneck_Lucu/pink.webp",
-      "../img/product/Tshirt-Basic-Oneck_Lucu/plum.webp",
-
     ],
     sizes: ["AllSize"],
     colors: ["Coklat Susu", "Hitam", "Mint", "Pink", "Plum"],
+    category: "atasan", // Kategori baru
+  },
+  7: {
+    name: "T-Shirt Wanita V-Neck Basic Polos Casual",
+    price: 60000,
+    description: `Atasan Kaos Wanita – T-Shirt Basic V-Neck Kekinian
+
+🌸 Kaos simpel, adem & stylish untuk menemani aktivitas santai harianmu!
+
+🔎 Detail Produk:
+• Material: Katun Stretch Premium – adem, lembut, kuat, dan tidak bikin gerah  
+• Model: Basic V-Neck, cocok untuk dipakai di rumah, hangout, atau daily wear  
+• Ukuran: Allsize (Fit S–L)  
+  - Lingkar Dada: ±80 cm  
+  - Panjang Baju: ±58 cm  
+  - Toleransi ukuran: ±1–2 cm  
+
+👕 Varian Model:
+1. Regular  
+2. Belah Samping (BS) – belahan kiri & kanan bagian bawah  
+
+🎨 Pilihan Warna: Tersedia banyak warna menarik, cek varian untuk detailnya.  
+
+💡 Kenapa kamu bakal suka kaos ini?
+✓ Nyaman dipakai seharian  
+✓ Bahan lembut & berkualitas  
+✓ Desain simpel tapi tetap modis  
+✓ Cocok jadi outfit santai, kerja di rumah, maupun OOTD casual  
+
+📦 Ready stock & langsung kirim  
+📸 Foto real pict, sesuai deskripsi  
+🤝 Reseller & dropship welcome!  
+
+#kaoswanita #atasanwanita #tshirtbasic #vnecktee #kaoskekinian #ootdcewek #kaosrumahan #dailywear #kaospromo #bajumurah
+`,
+    images: [
+      "../img/product/Tshirt-Basic-Vneck/plum.webp",
+      "../img/product/Tshirt-Basic-Vneck/coksu.webp",
+      "../img/product/Tshirt-Basic-Vneck/hitam.webp",
+      "../img/product/Tshirt-Basic-Vneck/mint.webp",
+      "../img/product/Tshirt-Basic-Vneck/pink.webp",
+      "../img/product/Tshirt-Basic-Vneck/mustar.webp",
+
+    ],
+    sizes: ["AllSize"],
+    colors: ["Coklat Susu", "Hitam", "Mint", "Pink", "Plum", "Mustar"],
     category: "atasan", // Kategori baru
   },
 };
